@@ -6,7 +6,7 @@ datafile = "data.txt"
 
 @bot.message_handler(commands=['start'])
 def handler_text(message):
-    answer = "hello"
+    answer = "Привет. Я - бот, принимающий задания на лекциях финтех-школы. Начни с того, чтобы написать свои ФИО :)"
     sent = bot.send_message(message.chat.id, answer)
 
 
